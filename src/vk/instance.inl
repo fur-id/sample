@@ -1,0 +1,19 @@
+#ifndef VKF_INSTANCE
+#define VKF_INSTANCE(...)
+#endif
+VKF_INSTANCE(vkDestroyInstance)
+VKF_INSTANCE(vkDestroySurfaceKHR)
+VKF_INSTANCE(vkEnumeratePhysicalDevices)
+VKF_INSTANCE(vkEnumerateDeviceExtensionProperties)
+VKF_INSTANCE(vkGetPhysicalDeviceProperties)
+VKF_INSTANCE(vkGetPhysicalDeviceFeatures)
+VKF_INSTANCE(vkGetPhysicalDeviceMemoryProperties)
+VKF_INSTANCE(vkGetPhysicalDeviceQueueFamilyProperties)
+VKF_INSTANCE(vkGetPhysicalDeviceSurfaceSupportKHR)
+VKF_INSTANCE(vkGetPhysicalDeviceFormatProperties)
+VKF_INSTANCE(vkGetPhysicalDeviceSurfaceCapabilitiesKHR)
+VKF_INSTANCE(vkGetPhysicalDeviceSurfaceFormatsKHR)
+VKF_INSTANCE(vkGetPhysicalDeviceSurfacePresentModesKHR)
+VKF_INSTANCE(vkCreateDevice)
+VKF_INSTANCE(vkGetDeviceProcAddr)
+#undef VKF_INSTANCE
